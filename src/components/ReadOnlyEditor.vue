@@ -38,7 +38,7 @@ export default {
 		},
 		isRichEditor: {
 			type: Boolean,
-			default: false
+			default: true
 		}
 	},
 	data: () => {
@@ -65,4 +65,7 @@ export default {
 		overflow: scroll;
 	}
 
+</style>
+<style lang="scss">
+	@import './../../css/prosemirror';
 </style>

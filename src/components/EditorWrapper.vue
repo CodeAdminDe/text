@@ -339,6 +339,7 @@ export default {
 					if (state.initialLoading && !this.initialLoading) {
 						this.initialLoading = true
 						this.tiptap.focus('start')
+						this.$emit('ready')
 					}
 					if (state.hasOwnProperty('dirty')) {
 						this.dirty = state.dirty
